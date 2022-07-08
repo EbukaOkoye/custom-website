@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.navbar ul {
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #574b4b;
+    margin: 0 8px;
+}
+
+
+.about {
+    margin: 35px 0;
+    padding: 10px;
+}
+
+.about-heading {
+    color: darkgray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about-text {
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.about-button {
+    background: #574b4b;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 30px;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+.img {
+    width: 100%;
+}
+
+.special {
+    padding: 15px;
+}
+
+.special-heading-text {
+    color: #574b4b;
+    margin: 15px 0;
+}
+
+.box {
+    margin: 20px 0;
+    box-shadow: 3px 4px 3px 3px grey;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.box1-heading {
+    margin: 15px 0;
+}
+
+.box1-text {
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box2-heading {
+    margin: 15px 0;
+}
+
+.box2-text {
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box3-heading {
+    margin: 15px 0;
+}
+
+.box3-text {
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box span {
+    color: #574b4b;
+    font-size: 20px;
+}
+
+.middle {
+    max-width: 70vw;
+    margin: 30px auto;
+    background: #615e5e;
+    padding: 12px;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.middle-img img {
+    width: 100%;
+}
+
+.middle-text {
+    line-height: 1.7;
+}
+
+.selling {
+    margin: 30px 0;
+    padding: 15px;
+}
+
+.selling-heading {
+    margin: 15px 0;
+    color: #574b4b;
+}
+
+.card-tile {
+    margin: 35px 0;
+}
+
+.card {
+    padding: 10px;
+    box-shadow: 3px 3px 3px 3px grey;
+    border-radius: 12px;
+    margin: 25px 0;
+}
+
+.card-img img {
+    width: 100%;
+}
+
+.card-img {
+    margin: 20px 0;
+}
+
+.card-title {
+    margin: 15px 0;
+    color: darkgray;
+}
+
+.card-list {
+    margin: 15px 0;
+}
+
+.card-list span {
+    margin: 0 10px;
+}
+
+.card-button {
+    margin: 15px 0;
+    font-family: cursive;
+}
+
+.btn {
+    font-family: cursive;
+    border: none;
+    outline: none;
+    background: #645b5b;
+    padding: 7px 15px;
+    border-radius: 18px;
+    color: #fff;
+}
+
+footer {
+    background: #474545;
+    text-align: center;
+    padding: 8px;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.center {
+    max-width: 95%;
+    margin: 25px auto;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        padding: 15px;
+    }
+
+    .navbar ul {
+        display: flex;
+        align-items: center;
+        /* border: 2px solid #000; */
+    }
+
+    .logo img {
+        height: 80px;
+        width: 150px;
+        /* border: 2px solid #000; */
+    }
+
+    .about {
+        display: flex;
+        justify-content: space-between;
+        padding: 25px;
+    }
+
+    .about-content,
+    .about-img {
+        flex: 0 0 calc(50% - 3rem);
+    }
+
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about-button {
+        max-width: fit-content;
+    }
+
+    .special {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .special-box-section {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .box {
+        flex: 1 0 calc(33.33% - 2rem);
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .middle {
+        display: flex;
+        justify-content: space-around;
+        padding: 35px;
+        max-width: 90%;
+    }
+
+    .middle-content {
+        margin: 0 10px;
+    }
+
+    .middle-img {
+        margin: auto 10px;
+    }
+
+    .selling {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-tile {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .card {
+        flex: 0 0 calc(33.33% - 2rem);
+    }
+}
